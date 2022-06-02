@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Service Catalog Platform" source="com.glideapp.servicecatalog.platform">a7f9a4e7559201107f44d7f62dcafe53</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-01 19:32:39</sys_created_on>
+        <sys_id>5d78fdc2a47781107f44cc77d12647b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="SharkTank" source="x_cdltd_sharktank">cae5f102a47781107f44cc77d12647e4</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-01 19:32:39</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

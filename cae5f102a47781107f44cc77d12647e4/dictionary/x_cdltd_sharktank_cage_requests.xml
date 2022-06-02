@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sc_request" label="Cage Requests" max_length="40" name="x_cdltd_sharktank_cage_requests" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Number of Divers" max_length="40" name="u_number_of_divers" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci" label="Cage Inventory" max_length="40" name="x_cdltd_sharktank_cage_inventory" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Material" mandatory="true" max_length="40" name="u_material" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Wood" sequence="0" value="wood"/>
+                <element inactive_on_update="false" label="Steel" sequence="1" value="steel"/>
+                <element inactive_on_update="false" label="Aluminum" sequence="2" value="aluminum"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cage Size" mandatory="true" max_length="40" name="u_cage_size" type="string">
+            <choice>
+                <element inactive_on_update="false" label="10'x10'" sequence="0" value="10'x10'"/>
+                <element inactive_on_update="false" label="10'15'" sequence="1" value="10'15'"/>
+                <element inactive_on_update="false" label="10'x20'" sequence="2" value="10'x20'"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Number of Divers" mandatory="true" max_length="40" name="u_number_of_divers" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+            </choice>
+        </element>
+    </element>
+</database>

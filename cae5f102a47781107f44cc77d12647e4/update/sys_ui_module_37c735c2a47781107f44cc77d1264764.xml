@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Maintenence">f3c735c2a47781107f44cc77d1264761</application>
+        <filter/>
+        <name>Maintenences</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_cdltd_sharktank.maintenence_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-01 19:29:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37c735c2a47781107f44cc77d1264764</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Maintenences</sys_name>
+        <sys_package display_value="SharkTank" source="x_cdltd_sharktank">cae5f102a47781107f44cc77d12647e4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SharkTank">cae5f102a47781107f44cc77d12647e4</sys_scope>
+        <sys_update_name>sys_ui_module_37c735c2a47781107f44cc77d1264764</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-06-01 19:29:50</sys_updated_on>
+        <table>x_cdltd_sharktank_maintenence</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

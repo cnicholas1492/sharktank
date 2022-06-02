@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Maintenence" max_length="40" name="x_cdltd_sharktank_maintenence" sizeclass="0" type="collection">
+        <element label="Due Date" mandatory="true" max_length="40" name="u_due_date_2" type="due_date"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Labor Expense" mandatory="true" max_length="20" name="u_labor_expense" type="price"/>
+    </element>
+</database>
